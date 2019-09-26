@@ -1,0 +1,25 @@
+﻿<Window x:Class="HHW.Tools.TrackMaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HHW.Tools.TrackMaker"
+        mc:Ignorable="d"
+        Title="Cosmo's HHW Tools - Track Maker" Height="640" Width="960">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="414*"/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="952" Grid.RowSpan="2">
+            <MenuItem x:Name="fileMenu" Header="File" Height="22" Width="32">
+                <MenuItem x:Name="exit" Header="Exit" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="stormMenu" Header="Storm" Height="22" Width="48">
+                <MenuItem x:Name="newStorm" Header="Add New Storm..." Click="NewStorm_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Image x:Name="Basin" HorizontalAlignment="Left" Height="587" Margin="0,15,0,0" Grid.Row="1" VerticalAlignment="Top" Width="952"/>
+
+    </Grid>
+</Window>

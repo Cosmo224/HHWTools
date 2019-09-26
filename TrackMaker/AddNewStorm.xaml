@@ -1,0 +1,27 @@
+﻿<Window x:Class="HHW.Tools.TrackMaker.AddNewStorm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HHW.Tools.TrackMaker"
+        mc:Ignorable="d"
+        Title="Add a new storm..." Height="271.488" Width="800">
+    <Grid>
+        <Label x:Name="addNewStormLabel" Content="Add a new storm..." HorizontalAlignment="Left" Height="60" Margin="10,0,0,0" VerticalAlignment="Top" Width="304" FontSize="36"/>
+        <Label x:Name="addNewStormNameLabel" Content="Name:" HorizontalAlignment="Left" Height="37" Margin="10,60,0,0" VerticalAlignment="Top" Width="61" FontSize="18"/>
+        <TextBox x:Name="addNewStormName" HorizontalAlignment="Left" Height="32" Margin="76,64,0,0" TextWrapping="Wrap" Text="enter name here..." VerticalAlignment="Top" Width="477" FontSize="18" FontStyle="Italic"/>
+        <Label x:Name="addNewStormType" Content="Type:" HorizontalAlignment="Left" Height="37" Margin="10,97,0,0" VerticalAlignment="Top" Width="61" FontSize="18"/>
+        <ComboBox x:Name="addNewStormComboBox" HorizontalAlignment="Left" Height="33" Margin="76,101,0,0" VerticalAlignment="Top" Width="477" SelectedIndex="1" FontSize="18">
+            <ComboBoxItem x:Name="tropical_wave" Content="[Pre-TC] Tropical wave"/>
+            <ComboBoxItem x:Name="tropical" Content="Tropical cyclone"/>
+            <ComboBoxItem x:Name="subtropical" Content="Subtropical cyclone"/>
+            <ComboBoxItem x:Name="extratropical" Content="Extratropical cyclone"/>
+            <ComboBoxItem x:Name="polar_low" Content="Polar low"/>
+            <ComboBoxItem x:Name="remnant_low" Content="Remnant low"/>
+        </ComboBox>
+        <Label x:Name="addNewStormChangeLater" Content="The storm type can be changed for different parts of a storm's life." HorizontalAlignment="Left" Height="37" Margin="10,139,0,0" VerticalAlignment="Top" Width="596" FontSize="18"/>
+        <Button x:Name="addNewStormOkButton" Content="OK" HorizontalAlignment="Left" Height="25" Margin="664,186,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label x:Name="addNewStormLabel_SpinnyClout" Content="Create your spinny clout!" HorizontalAlignment="Left" Height="40" Margin="314,19,0,0" VerticalAlignment="Top" Width="304" FontSize="18" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

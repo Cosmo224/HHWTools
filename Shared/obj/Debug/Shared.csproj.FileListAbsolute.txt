@@ -1,0 +1,10 @@
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\bin\Debug\Shared.dll
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\bin\Debug\Shared.pdb
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\obj\Debug\Shared.csprojAssemblyReference.cache
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\obj\Debug\Shared.dll
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\obj\Debug\Shared.pdb
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\obj\Debug\Shared.csproj.GenerateResource.cache
+C:\Users\Cosmo\HHWTools\HHWTools\TrackMaker\bin\Debug\Shared.dll
+C:\Users\Cosmo\HHWTools\HHWTools\TrackMaker\bin\Debug\Shared.pdb
+C:\Users\Cosmo\HHWTools\HHWTools\Shared\obj\Debug\HHW.Tools.Properties.Resources.resources
